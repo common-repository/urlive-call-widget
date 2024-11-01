@@ -1,0 +1,86 @@
+
+/* #widget-form2 .form-table tbody tr, #widget-form1 .form-table tbody tr{
+    display: flex;
+    flex-direction: column;
+} */
+
+#widget-form2 .form-table tbody tr th, #widget-form1 .form-table tbody tr  th {
+    padding: 20px 10px 1px 11px;
+    text-align: right;
+}
+
+.url_input {
+    width: 165px;
+    height: 40px;
+    border-radius: 5px !important;
+    background-color: #1784e3;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    margin: auto;
+    text-align: center;
+    color: #ffffff;
+}
+
+#enter-code, #restart {
+    border: none;
+    border-radius: 5px!important;
+    height: 40px;
+    width: 200px;
+    background-color: #09E58C;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    margin: 20px 0 20px 0px;
+}
+
+.textarea-widget {
+    border: 1px solid #979797;
+    word-break: break-word;
+    overflow: auto;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    width: 80%;
+    resize: none;
+    margin: 0;
+    height: 240px;
+}
+
+p {
+    font-size: 19px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0px;
+}
+
+#Page1, #Page2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+#widget-form1, #widget-form2 {
+    width: 65%;
+}
+
+/* #wpbody {
+    width: 80%;
+    padding-top: 92px;
+} */
+
+.urll_body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 92px;
+    height: 100%;
+}
